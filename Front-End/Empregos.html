@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vagas de Emprego</title>
+  <header>
+    <div class="container">
+        <h1>Brasil Notícia</h1>
+    </div>
+    </div>
+</header>
+
+<section>
+    <h2>Oportunidades de Trabalho</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://www.serasaexperian.com.br/images-cms/wp-content/uploads/2023/05/desenvolvedor-de-software.jpg">
+            <h3>Desenvolvedor de Software</h3>
+            <p>Estamos em busca de um desenvolvedor de software para integrar nossa equipe. O profissional será responsável por criar, testar e manter sistemas web e aplicativos. </p>
+        </div>
+
+        <div class="card">
+            <img src="https://neilpatel.com/wp-content/uploads/2018/01/profissional-analista-de-marketing-segurando-lapto.jpeg">
+            <h3>Analista de Marketing Digital</h3>
+            <p> A vaga é para um analista de marketing digital para ajudar a planejar e executar campanhas em redes sociais, SEO e e-mail marketing.</p>
+            
+        </div>
+
+        <div class="card">
+            <img src="https://profissoes.vagas.com.br/wp-content/uploads/2022/09/o-que-faz-assistente-administrativo.jpg">
+            <h3> Assistente Administrativo</h3>
+            <p>Buscamos um assistente administrativo para ajudar na organização e execução de processos internos, incluindo controle de documentos e apoio ao time de gestão. </p>
+           
+        </div>
+
+        <div class="card">
+            <img src="https://www.pontotel.com.br/local/wp-content/uploads/2022/12/vendedor-externo-afinal-de-contas-o-que-faz-um-vendedor-externo.webp">
+            <h3> Vendedor Externo</h3>
+            <p>A empresa está procurando um vendedor externo para realizar visitas a clientes e prospecção de novos negócios em uma área específica.</p>
+           
+        </div>
+
+        <div class="card">
+            <img src="https://www.escoladapaz.com.br/wp-content/uploads/2020/09/dia-12-e-20-de-maio-dia-do-enfermeiro-e-do-tecnico-de-enfermagem.jpg">
+            <h3>Enfermeiro(a)</h3>
+            <p> O profissional será responsável por prestar atendimento a pacientes em uma clínica de atendimento especializado.</p>
+           
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="assinar">
+        <h2>Deixe seu e-mail em caso de interesse</h2>
+        <form>
+            <input type="email" placeholder="Seu e-mail" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8f8;
+}
+
+header {
+  background-color: rgb(78, 141, 223);
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu nav, nav a{
+    list-style: none;
+    display: flex;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+}
+& nav a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(78, 141, 223);
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card a {
+  text-decoration: none;
+  color:rgb(78, 141, 223);
+  font-weight: 500;
+}
+
+#assinar form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#assinar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#assinar button {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+</style>
+</body>
+</html>

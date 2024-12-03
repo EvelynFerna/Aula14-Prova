@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jornal Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Brasil Notícia</h1>
+
+            <div class="menu">
+                <nav>
+                    <a href="#">Notícias Gerais</a>
+                    <a href="Empregos.html">Vagas de Emprego</a>
+                    <a href="horóscopo.html">Horóscopo</a>
+                    <a href="tempo.html">Previsão do Tempo</a>
+                    <a href="#">Esportes</a>
+                    <a href="#">Assinar o Jornal</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container1">
+        <h2>Notícias em Destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <a href="noticia.html"> 
+                    <img src="noticia.PNG" alt="Notícia 1">
+                    <h3>PM é flagrado jogando homem em rio na Zona Sul de SP</h3>
+                    <p>São Paulo — Um policial militar (PM) foi flagrado na noite dessa segunda-feira (2/12) jogando um homem em um córrego do alto de uma ponte na Cidade Ademar, na zona sul de São Paulo.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="noticia1.html"> 
+                    <img src="noticia1.PNG" alt="Notícia 2">
+                    <h3>'Legítima defesa do racismo', diz rapper que teve sobrinho morto por PM</h3>
+                    <p>O rapper Eduardo Taddeo, tio do jovem de 26 anos morto a tiros pelas costas por um policial militar no início de novembro, divulgou um vídeo de câmeras de segurança que registram o momento em que seu sobrinho é atingido pelos disparos do PM à paisana, na zona sul de São Paulo.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="noticia3.html"> 
+                    <img src="noticia3.PNG" alt="Notícia 3">
+                    <h3>Mulher é arrastada por enxurrada e fica presa debaixo de carro no DF</h3>
+                    <p>Uma mulher foi arrastada por uma enxurrada e ficou presa debaixo de um carro na região do Sol Nascente, no Distrito Federal. Imagens de uma câmera de segurança mostram que a mulher parecia tentar nadar enquanto era levada pela correnteza, e um homem corria atrás dela, na tentativa de salvá-la.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="noticia4.html"> 
+                    <img src="Capturar.PNG" alt="Notícia 4">
+                    <h3>Homem de 30 anos agredido por agentes da ViaMobilidade na estação de trem de Carapicuíba,morre por asfixia mecânica.</h3>
+                    <p>O caso foi registrado como morte súbita sem causa determinante aparente e morte acidental no 1° Distrito Policial de Carapicuíba. No boletim de ocorrência, os seguranças apresentaram uma versão diferente da flagrada pelas câmeras.</p>
+                </a> 
+            </div>
+
+            <div class="card">
+                <a href="noticia5.html">
+                    <img src="noticia5.PNG" alt="Notícia 5">
+                    <h3>Ex de homem que atacou STF morre 16 dias após atear fogo à casa deles em SC.</h3>
+                    <p>Ex-esposa de Francisco Wanderley Luiz, 59, autor das explosões em Brasília em 13 de novembro, morreu após atear fogo em si mesma e na casa onde os dois moraram em Rio do Sul (SC).</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Brasil Notícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: rgb(78, 141, 223);
+}
+
+header {
+    background-color: rgb(78, 141, 223);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.menu {
+    width: 100%;
+    background: rgb(78, 141, 223);
+    color: white;
+    text-align: center;
+}
+
+.menu nav {
+    padding: 15px;
+}
+
+.menu nav a {
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu nav a:hover {
+    color: rgb(167, 165, 165);
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card a {
+   
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: rgb(78, 141, 223);
+    color: #fff;
+}
+
+.card p {
+    padding: 15px;
+    
+    color: #666;
+}
+
+footer {
+    background-color: rgb(78, 141, 223);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+  
+}
+
+    </style>
+</body>
+</html>
